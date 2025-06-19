@@ -1,0 +1,7 @@
+.section {
+  min-height: 100vh;
+  padding: 8rem 4rem; /* 8rem top padding avoids overlap with navbar */
+  background-color: #fff;
+  min-height: 100hv;
+  border: 2px dashed red;
+}
