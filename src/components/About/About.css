@@ -1,7 +1,48 @@
 .section {
   min-height: 100vh;
   padding: 8rem 4rem; /* 8rem top padding avoids overlap with navbar */
-  background-color: #171616;
+  background-color: #faf5ee;
   min-height: 100hv;
-  border: 2px dashed red;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0rem;
+  flex-wrap: wrap;
+}
+
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about-image img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about-texts {
+  flex: 1;
+  max-width: 800px;
+}
+
+.about-texts h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-texts h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #1D503A;
+}
+
+.about-texts p {
+  line-height: 1.6;
+  text-align: left;
 }

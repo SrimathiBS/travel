@@ -9,8 +9,16 @@ import six from '../../assets/6.jpeg'
 
 const Travel = () => {
   return (
-    <section id='Travel' className='section'>Travel
-
+    <section id='Travel' className='section'>
+      <h1>Explore</h1>
+      <div className='container'>
+        <div className='card'> <img src={frist} alt='image' /> </div>
+        <div className='card'> <img src={sec} alt='image' /> </div>
+        <div className='card'> <img src={thir} alt='image' /> </div>
+        <div className='card'> <img src={four} alt='image' /> </div>
+        <div className='card'> <img src={fif} alt='image' /> </div>
+        <div className='card'> <img src={six} alt='image' /> </div>
+      </div>
     
 
     </section>

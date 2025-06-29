@@ -1,0 +1,48 @@
+.experience-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.experience-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.experience-form input,
+.experience-form textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: none;
+}
+
+.experience-form textarea {
+  min-height: 100px;
+}
+
+.experience-form button {
+  padding: 12px;
+  background-color: #095115;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+
+.experience-form button:hover {
+  background-color: #35582c;
+}

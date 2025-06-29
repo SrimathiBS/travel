@@ -1,0 +1,77 @@
+/* UserForm.css */
+
+.form-container {
+  background-color: #f4f4f4;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 3rem auto;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+}
+
+.form-container h2 {
+  color: #1D503A;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+label {
+  font-weight: 500;
+  color: #333;
+}
+
+input {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+input:focus {
+  border-color: #1D503A;
+  box-shadow: 0 0 5px #1D503A77;
+}
+
+.form-button {
+  background-color: #1D503A;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #15402d;
+}
+
+.form-container hr {
+  margin: 2rem 0;
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.form-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.form-container li {
+  background-color: #e6f2ec;
+  border-left: 5px solid #1D503A;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #333;
+}
